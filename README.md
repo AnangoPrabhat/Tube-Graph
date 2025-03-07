@@ -1,10 +1,10 @@
 # Tube Map Route Finder
 
-This project provides a web application that allows users to find the optimal route between two stations on the London Underground. By entering a start and end station, users can visualize the route on an interactive map along with a journey summary.
+This project provides a web application that allows users to find a fast route between two stations on the London Underground. By entering a start and end station, users can visualise the route on an interactive map along with a journey summary.
 
 ## Features
 
-- **Route Visualization**: Display the shortest path on a map using Folium.
+- **Route Visualisation**: Display the shortest path on a map using Folium.
 - **Journey Summary**: Provides details of the route, including travel times and transfers.
 - **Shortest Path Calculation**: Utilizes Dijkstra's algorithm to determine the most efficient route between stations.
 
@@ -14,10 +14,10 @@ The model considers both travel times and transfer times when calculating the op
 
 - **Travel Times**: Estimated based on the distance between adjacent stations, using the Haversine Formula to compute direct distances. Primary data was used to tune parameters of the estimation. 
 - **Transfer Times**: Calculated with the formula:
-  
-  \[
+
+  $$
   T = \sqrt{\frac{d}{2}} \times 60 + \frac{T_{between}}{2}
-  \]
+  $$
 
   where \(d\) is the number of neighbouring stations and \(T_{between}\) is the average time between trains on the new line.
 
