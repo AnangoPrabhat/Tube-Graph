@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>London Tube Route Finder</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <header>
+    <h1>London Tube Route Finder</h1>
+  </header>
+
+  <main>
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <div class="flash">
+          {% for message in messages %}
+            <p>{{ message }}</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+
+    <form method="post">
+      <div class="form-group">
+        <label for="start_station">Start Station:</label>
+        <input type="text" id="start_station" name="start_station" list="stations" placeholder="e.g. Paddington" value="{{selected_start}}" required>
+      </div>
+      <div class="form-group">
+        <label for="end_station">End Station:</label>
+        <input type="text" id="end_station" name="end_station" list="stations" placeholder="e.g. Baker Street" value="{{selected_end}}" required>
+      </div>
+
+      <datalist id="stations">
+        {% for station in station_names %}
+          <option value="{{ station }}">
+        {% endfor %}
+      </datalist>
+
+      <button type="submit">Find Route</button>
+    </form>
+
+    {% if map_html %}
+    <section id="results">
+      <h2>Route Details</h2>
+      <p><strong>Route Summary:</strong> {{ journey }}</p>
+      <p><strong>Total Estimated Time:</strong> {{ total_time }}</p>
+      <div id="map">
+        {{ map_html | safe }}
+      </div>
+    </section>
+    {% endif %}
+  </main>
+
+  <footer>
+    <p>&copy; {{ 2025 | string }} London Tube Project</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,52 @@
+Line,Start Station,End Station,Time (mm:ss)
+Bakerloo ,Paddington,Lambeth North,17:35
+Bakerloo ,Charing Cross,Lambeth North,04:56
+Bakerloo ,Piccadilly Circus,Lambeth North,06:46
+Bakerloo ,Piccadilly Circus,Lambeth North,06:22
+Central ,Mile End,Woodford,15:00
+Central ,Holland Park,Oxford Circus,8:59
+Circle ,Embankment,King's Cross St. Pancras,21:37
+Circle ,High Street Kensington,St. James's Park,9:49
+Circle ,Gloucester Road,Victoria,05:32
+Circle,Baker Street,Hammersmith,17:53
+District ,Victoria ,Barking,42:00
+District ,Gloucester Road,Upminster,60:44
+District ,Upney,West Ham,12:00
+District ,Hammersmith,Richmond,16:03
+District ,Gloucester Road,Victoria,05:32
+District ,Westminster,Earl's Court,11:09
+District ,Victoria,Ealing Common,25:57
+District ,Upney,Elm Park,09:03
+Hammersmith & City,Baker Street,Hammersmith,17:53
+Hammersmith & City,Plaistow,Hammersmith,52:34
+Jubilee ,Stratford,Waterloo,20:00
+Jubilee ,Waterloo,Finchley Road,15:01
+Jubilee ,West Ham ,Canada Water ,09:48
+Jubilee ,Stratford,Waterloo,18:41
+Jubilee ,Waterloo,Baker Street,8:28
+Jubilee ,West Ham,Waterloo,16:30
+Jubilee ,Stratford,Stanmore,59:43
+Metropolitan ,North Harrow,Baker Street,27:00
+Metropolitan ,North Harrow,Baker Street,24:38
+Metropolitan ,Uxbridge,Aldgate,58:59
+Northern ,Elephant & Castle,Edgware,39:53
+Northern ,Edgware,Morden,63:02
+Northern ,Waterloo ,Euston,10:57
+Northern ,Waterloo,Camden Town,13:48
+Northern ,Camden Town,Edgware,23:05
+Northern ,Woodside Park,Waterloo,31:33
+Northern ,Woodside Park,Waterloo, 28:00
+Northern ,King's Cross St. Pancras,Edgware,28:15
+Northern ,Waterloo,Golders Green,22:12
+Northern ,Golders Green,Edgware,12:54
+Northern ,Waterloo,Stockwell,09:40
+Northern ,King's Cross St. Pancras,Camden Town,05:13
+Northern ,Camden Town,Edgware,22:33
+Piccadilly ,Hammersmith,Piccadilly Circus,15:33
+Piccadilly ,Hammersmith,Uxbridge,47:01
+Piccadilly ,Earl's Court,Hammersmith,04:55
+Piccadilly ,Gloucester Road,Piccadilly Circus,09:38
+Piccadilly ,Barons Court,Piccadilly Circus,13:57
+Victoria ,Stockwell,King's Cross St. Pancras,14:14
+Victoria ,Oxford Circus,Tottenham Hale,15:30
+Waterloo & City,Bank,Waterloo,05:04
