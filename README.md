@@ -41,3 +41,12 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/AnangoPrabhat/Tube-Graph.git
    ```
+
+
+## Acknowledgments
+
+Development of this project utilised OpenAI's GPT-o3 Mini for its reasoning capabilities. The following files incorporate its code:
+
+- **app.py**: Implements the main logic using GPT-o3 Mini.
+- **index.html & styles.css**: Frontend design elements guided by GPT-3 Mini's suggestions.
+
