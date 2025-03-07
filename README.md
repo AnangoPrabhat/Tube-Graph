@@ -29,7 +29,7 @@ The combination of these factors allows for accurate modeling of the journey tim
 2. Click the "Find Route" button.
 3. View the optimal route displayed on the map along with the journey summary.
 
-![Example Usage](path/to/your/example_image.png)  <!-- Replace with the actual path to your image -->
+![Example Usage](Other_Files/example_image_1.png)(Other_Files/example_image_2.png)  <!-- Replace with the actual path to your image -->
 
 ## Installation
 
