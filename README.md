@@ -19,7 +19,7 @@ The model considers both travel times and transfer times when calculating the op
   T = \sqrt{\frac{d}{2}} \times 60 + \frac{T_{between}}{2}
   $$
 
-  where \(d\) is the number of neighbouring stations and \(T_{between}\) is the average time between trains on the new line.
+  where $d$ is the number of neighbouring stations and $T_{between}$ is the average time between trains on the new line.
 
 The combination of these factors allows for accurate modeling of the journey times across the Tube network.
 
@@ -39,3 +39,4 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/AnangoPrabhat/Tube-Graph.git
+   ```
