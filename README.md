@@ -12,7 +12,7 @@ This project provides a web application that allows users to find the optimal ro
 
 The model considers both travel times and transfer times when calculating the optimal route. Key aspects include:
 
-- **Travel Times**: Estimated based on the distance between adjacent stations, using the Haversine Formula to compute direct distances.
+- **Travel Times**: Estimated based on the distance between adjacent stations, using the Haversine Formula to compute direct distances. Primary data was used to tune parameters of the estimation. 
 - **Transfer Times**: Calculated with the formula:
   
   \[
