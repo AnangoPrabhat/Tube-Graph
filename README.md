@@ -17,13 +17,7 @@ This project is in no way affiliated with Transport for London.
 The model considers both travel times and transfer times when calculating the optimal route. Key aspects include:
 
 - **Travel Times**: Estimated based on the distance between adjacent stations, using the Haversine Formula to compute direct distances. Primary data was used to tune parameters of the estimation. 
-- **Transfer Times**: Calculated with the formula:
-
-  $$
-  T = \sqrt{\frac{d}{2}} \times 60 + \frac{T_{between}}{2}
-  $$
-
-  where $d$ is the number of neighbouring stations and $T_{between}$ is the average time between trains on the new line.
+- **Transfer Times**: Estimated based on the number of lines of the station and the frequency of the new line. 
 
 The combination of these factors allows for accurate modeling of the journey times across the Tube network.
 
