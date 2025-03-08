@@ -2,6 +2,10 @@
 
 This project provides a web application that allows users to find a fast route between two stations on the London Underground. By entering a start and end station, users can visualise the route on an interactive map along with a journey summary.
 
+Please note, this code is not intended for actual journey planning; the information provided is a way to visualise the London Underground System as a graph, and is not as accurate as other tools such as Google Maps. 
+
+This project is in no way affiliated with Transport for London.
+
 ## Features
 
 - **Route Visualisation**: Display the shortest path on a map using Folium.
