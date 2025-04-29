@@ -45,6 +45,6 @@ To run this project locally, follow these steps:
 
 Development of this project utilised OpenAI's GPT-o3 Mini for its reasoning capabilities. The following files incorporate its code:
 
-- **app.py**: Implements the main logic using GPT-o3 Mini.
+- **app.py**: Implements the main logic for the website using GPT-o3 Mini.
 - **index.html & styles.css**: Frontend design elements guided by GPT-o3 Mini's suggestions.
 
