@@ -154,3 +154,5 @@ def time_DC(current_station, next_station, used_line, silent=1):
 def model_transfer_time(node, prev_line, new_line):
     answer = (len(graph[node])/2)**0.5*60 + (3600/frequencies[new_line])/2
     return answer
+
+fine_tune()
